@@ -1,0 +1,56 @@
+@media screen and (max-width: 768px) {
+
+    #menu {
+        display: block;
+        position: absolute;
+        top: 18px;
+        right: 20px;
+        color: black;
+    }
+
+    nav {
+        background-color: #1f1f1f;
+    }
+
+    .navigation {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .navigation.open {
+        display: flex;
+    }
+
+    .navigation li {
+        border-bottom: 1px solid #444;
+        border-right: none;
+    }
+
+    .navigation a {
+        padding: 15px;
+    }
+
+
+    .home-grid {
+        grid-template-columns: 1fr;
+    }
+
+
+    .buttons {
+        grid-template-columns: 1fr;
+    }
+
+    .courses {
+        grid-template-columns: 1fr;
+    }
+
+    .photo-card img {
+        width: 180px;
+        height: 180px;
+    }
+
+    h1 {
+        font-size: 1.7rem;
+    }
+}
