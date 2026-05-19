@@ -4,7 +4,7 @@
         "address": "Querétaro, Mexico",
         "phone": "442-555-1111",
         "website": "https://dragonimports.com",
-        "image": "images/business1.webp",
+        "image": "images/dragonimport-logo.png",
         "membership": 3,
         "description": "Electronics importer from China."
     },
@@ -14,7 +14,7 @@
         "address": "Querétaro, Mexico",
         "phone": "442-555-2222",
         "website": "https://asiagoodsmx.com",
-        "image": "images/business2.webp",
+        "image": "images/asiagoods-logo.png",
         "membership": 2,
         "description": "Home products wholesaler."
     },
@@ -24,7 +24,7 @@
         "address": "Querétaro, Mexico",
         "phone": "442-555-3333",
         "website": "https://goldenmarket.com",
-        "image": "images/business3.webp",
+        "image": "images/goldenmarket-logo.png",
         "membership": 1,
         "description": "Imported accessories and gifts."
     },
@@ -34,7 +34,7 @@
         "address": "Querétaro, Mexico",
         "phone": "442-555-4444",
         "website": "https://chinasupplyhub.com",
-        "image": "images/business4.webp",
+        "image": "images/chinasuply-logo.png",
         "membership": 3,
         "description": "Large importation distributor."
     },
@@ -44,7 +44,7 @@
         "address": "Querétaro, Mexico",
         "phone": "442-555-5555",
         "website": "https://smartgoods.com",
-        "image": "images/business5.webp",
+        "image": "images/smartgood-logo.png",
         "membership": 2,
         "description": "Technology and gadgets supplier."
     },
@@ -54,7 +54,7 @@
         "address": "Querétaro, Mexico",
         "phone": "442-555-6666",
         "website": "https://importworld.com",
-        "image": "images/business6.webp",
+        "image": "images/importworld-logo.png",
         "membership": 1,
         "description": "Wholesale imported products."
     },
@@ -64,7 +64,7 @@
         "address": "Querétaro, Mexico",
         "phone": "442-555-7777",
         "website": "https://tradecenter.com",
-        "image": "images/business7.webp",
+        "image": "images/queretarotradec-logo.png",
         "membership": 3,
         "description": "Business networking and import services."
     }
