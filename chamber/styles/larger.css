@@ -1,7 +1,5 @@
 @media only screen and (min-width: 768px) {
 
-    /* HEADER */
-
     header {
         display: flex;
         justify-content: space-between;
@@ -17,13 +15,9 @@
         gap: 2rem;
     }
 
-    /* GRID */
-
     .grid {
         grid-template-columns: repeat(3, 1fr);
     }
-
-    /* FOOTER */
 
     footer {
         display: flex;

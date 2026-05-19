@@ -4,8 +4,6 @@ body {
     color: #222;
 }
 
-/* HEADER */
-
 header {
     background-color: #003366;
     color: white;
@@ -44,8 +42,6 @@ header {
     font-weight: bold;
 }
 
-/* MAIN */
-
 main {
     padding: 1rem;
 }
@@ -53,8 +49,6 @@ main {
 main h2 {
     margin-bottom: 1rem;
 }
-
-/* BUTTONS */
 
 .menu-buttons {
     margin-bottom: 1rem;
@@ -69,8 +63,6 @@ main h2 {
     margin-right: 1rem;
     border-radius: 5px;
 }
-
-/* GRID VIEW */
 
 .grid {
     display: grid;
@@ -94,8 +86,6 @@ main h2 {
     margin: 1rem 0;
 }
 
-/* LIST VIEW */
-
 .list {
     display: flex;
     flex-direction: column;
@@ -111,8 +101,6 @@ main h2 {
 .list img {
     display: none;
 }
-
-/* FOOTER */
 
 footer {
     background-color: #003366;
