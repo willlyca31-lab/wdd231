@@ -1,17 +1,12 @@
-// CURRENT YEAR
 
 document.querySelector("#currentyear").textContent =
     new Date().getFullYear();
 
 
-// LAST MODIFIED
 
 document.querySelector("#lastModified").textContent =
     `Last Modification: ${document.lastModified}`;
 
-
-
-// MOBILE MENU
 
 const menuButton = document.querySelector("#menu");
 
@@ -22,8 +17,6 @@ menuButton.addEventListener("click", () => {
 });
 
 
-
-// FETCH MEMBERS
 
 const url = "data/members.json";
 
@@ -41,8 +34,6 @@ async function getMembers() {
 getMembers();
 
 
-
-// DISPLAY MEMBERS
 
 const displayMembers = (members) => {
 
@@ -108,8 +99,6 @@ const displayMembers = (members) => {
 };
 
 
-
-// GRID AND LIST BUTTONS
 
 const gridButton = document.querySelector("#grid");
 
