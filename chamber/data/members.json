@@ -1,0 +1,71 @@
+[
+    {
+        "name": "Dragon Imports",
+        "address": "Querétaro, Mexico",
+        "phone": "442-555-1111",
+        "website": "https://dragonimports.com",
+        "image": "images/business1.webp",
+        "membership": 3,
+        "description": "Electronics importer from China."
+    },
+
+    {
+        "name": "Asia Goods MX",
+        "address": "Querétaro, Mexico",
+        "phone": "442-555-2222",
+        "website": "https://asiagoodsmx.com",
+        "image": "images/business2.webp",
+        "membership": 2,
+        "description": "Home products wholesaler."
+    },
+
+    {
+        "name": "Golden Market",
+        "address": "Querétaro, Mexico",
+        "phone": "442-555-3333",
+        "website": "https://goldenmarket.com",
+        "image": "images/business3.webp",
+        "membership": 1,
+        "description": "Imported accessories and gifts."
+    },
+
+    {
+        "name": "China Supply Hub",
+        "address": "Querétaro, Mexico",
+        "phone": "442-555-4444",
+        "website": "https://chinasupplyhub.com",
+        "image": "images/business4.webp",
+        "membership": 3,
+        "description": "Large importation distributor."
+    },
+
+    {
+        "name": "Smart Goods",
+        "address": "Querétaro, Mexico",
+        "phone": "442-555-5555",
+        "website": "https://smartgoods.com",
+        "image": "images/business5.webp",
+        "membership": 2,
+        "description": "Technology and gadgets supplier."
+    },
+
+    {
+        "name": "Import World",
+        "address": "Querétaro, Mexico",
+        "phone": "442-555-6666",
+        "website": "https://importworld.com",
+        "image": "images/business6.webp",
+        "membership": 1,
+        "description": "Wholesale imported products."
+    },
+
+    {
+        "name": "Querétaro Trade Center",
+        "address": "Querétaro, Mexico",
+        "phone": "442-555-7777",
+        "website": "https://tradecenter.com",
+        "image": "images/business7.webp",
+        "membership": 3,
+        "description": "Business networking and import services."
+    }
+]
