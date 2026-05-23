@@ -16,6 +16,8 @@ menuButton.addEventListener("click", () => {
     navigation.classList.toggle("open");
 });
 
+const apiKey = "YOUR_API_KEY";
+const weatherURL = `https://api.openweathermap.org/data/2.5/weather?q=Queretaro,mx&units=metric&appid=${apiKey}`;
 
 
 const url = "data/members.json";

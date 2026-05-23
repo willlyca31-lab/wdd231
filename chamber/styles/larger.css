@@ -15,9 +15,19 @@
         gap: 2rem;
     }
 
+     .info-container {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #spotlight-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
     .grid {
         grid-template-columns: repeat(3, 1fr);
     }
+
+
 
     footer {
         display: flex;
