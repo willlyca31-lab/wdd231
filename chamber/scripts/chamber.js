@@ -1,5 +1,5 @@
 
-const apiKey = "YOUR_API_KEY";
+const apiKey = "613b6f5658e2eaecf64de20ce22b91b8";
 const city = "Queretaro";
 const country = "MX";
 
