@@ -10,7 +10,7 @@ header {
     padding: 1rem;
 }
 
-.logo {
+.logo p {
     font-size: 1.5rem;
 }
 
@@ -54,24 +54,29 @@ header {
 
 .hero-text {
     position: absolute;
-    top: 78%;
-    left: 0%;
+    bottom: 10%;
+    left: 5%;
     background-color: rgba(0,0,0,0.5);
     color: white;
     padding: 1rem;
+    max-width: 80%;
+    border-radius: 10px;
 }
 
 .cta-button {
     display: inline-block;
-    padding: 0.6rem 1rem;
-    font-size: 0.9rem;
+    padding: 0.5rem 0.9rem;
+    font-size: 0.85rem;
     border-radius: 6px;
     text-decoration: none;
+    background-color: #ff9900;
+    color: black;
+    font-weight: bold;
 }
 
 .intro {
     background: white;
-    margin-top: 3rem;
+    margin-top: 10rem;
     padding: 1.5rem;
     border-radius: 12px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
@@ -85,7 +90,6 @@ header {
     display: grid;
     gap: 1rem;
     padding: 1rem;
-    margin-top: 5rem;
     background: white;
     margin-top: 3rem;
     padding: 2rem;
@@ -94,7 +98,6 @@ header {
 }
 
 .spotlights {
-    padding: 1rem;
     background: white;
     margin-top: 3rem;
     padding: 2rem;
@@ -122,7 +125,7 @@ main h2 {
 .menu-buttons button {
     padding: 0.7rem 1rem;
     border: none;
-    background-color: #ff9900;
+    background-color: #cc7000;
     color: white;
     cursor: pointer;
     margin-right: 1rem;
