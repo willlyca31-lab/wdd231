@@ -18,18 +18,34 @@
      .info-container {
         grid-template-columns: 1fr 1fr;
     }
+    .hero-text {
+         width: auto;
+         max-width: 450px;
+         padding: 1.5rem;
+    }
+
+    .hero-text h1 {
+         font-size: 2rem;
+    font-size: 2rem;
+    }
+
+    .hero-text p {
+         font-size: 1rem;
+    }
 
     .cta-button {
          padding: 1rem 2rem;
          font-size: 1rem;
     }
 
+
+
     #spotlight-container {
-        grid-template-columns: repeat(3, 1fr);
+         grid-template-columns: repeat(3, 1fr);
     }
 
     .grid {
-        grid-template-columns: repeat(3, 1fr);
+         grid-template-columns: repeat(3, 1fr);
     }
 
     .hero {
