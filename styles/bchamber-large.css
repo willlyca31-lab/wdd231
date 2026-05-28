@@ -33,7 +33,7 @@ header {
 }
 
 nav {
-    background-color: #1f1f1f;
+    background-color: #022141;
 }
 
 .navigation {
@@ -194,23 +194,21 @@ h1 {
     font-size: 0.9rem;
 }
 
-.footer {
-    background-color: #dcdcdc;
-    text-align: center;
-    padding: 20px 10px;
-    margin-top: 14px;
+footer {
+    background-color: #022141;
+    color: white;
+    padding: 2rem 1rem;
+    margin-top: 2rem;
+}
+#lastModified {
+    color: yellow;
+    display: block;
+    align-items: center;
 }
 
 .socials {
     margin-bottom: 14px;
 }
-
-#lastModified {
-    color: rgb(7, 21, 216);
-    display: block;
-    align-items: center;
-}
-
 
 .socials a {
     text-decoration: none;
