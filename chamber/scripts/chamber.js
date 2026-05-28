@@ -1,12 +1,14 @@
-    const yearEl = document.getElementById("currentyear");
-    const modEl = document.getElementById("lastModified");
+     const yearEl = 
+document.getElementById("currentyear");
+     const modEl = 
+     document.getElementById("lastModified");
 
-    if (yearEl) {
-        yearEl.textContent = new Date().getFullYear();
+     if (yearEl) {
+         yearEl.textContent = new Date().getFullYear();
     }
 
-    if (modEl) {
-        modEl.textContent = "Last Modification: " + document.lastModified;
+     if (modEl) {
+         modEl.textContent = "Last Modification: " + document.lastModified;
     }
 
 /* MOBILE MENU */
