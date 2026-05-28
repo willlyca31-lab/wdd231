@@ -194,7 +194,7 @@ h1 {
     font-size: 0.9rem;
 }
 
-footer {
+.footer {
     background-color: #dcdcdc;
     text-align: center;
     padding: 20px 10px;
@@ -204,6 +204,13 @@ footer {
 .socials {
     margin-bottom: 14px;
 }
+
+#lastModified {
+    color: yellow;
+    display: block;
+    align-items: center;
+}
+
 
 .socials a {
     text-decoration: none;
