@@ -216,6 +216,11 @@ footer {
     padding: 2rem 1rem;
     margin-top: 2rem;
 }
+#lastModified {
+    color: yellow;
+    display: block;
+    align-items: center;
+}
 
 .socials {
     margin-bottom: 14px;
@@ -237,3 +242,4 @@ footer p {
     margin: 5px 0;
     font-size: 0.9rem;
 }
+
