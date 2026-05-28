@@ -145,26 +145,46 @@
 
             </section>
 
-            <section class="weather">
+            <div class="section weather">
+                <h2 id="weather-title">Current Weather</h2>
 
-                <h2>Weather</h2>
+                <div class="weather-card">
 
-                <p id="temperature"></p>
+                    <img id="weather-icon"
+                        src="images/icon.jpg"
+                        alt="Weather Icon"
+                        class="weather-icon">
 
-                <p id="description"></p>
+                    <div class="weather-info">
+                        <p class="temp">
+                            <span id="temp"></span> °C
+                        </p>
 
-                <div id="forecast"></div>
+                        <p id="description"></p>
 
-            </section>
+                        <p>
+                            <strong>Wind:</strong>
+                            <span id="wind"></span> Km/h
+                        </p>
 
+                        <p>
+                            <strong>Humidity:</strong>
+                            <span id="humidity"></span>%
+                        </p>
+
+                        <p>
+                            <strong>Wind Chill:</strong>
+                            <span id="windchill"></span>
+                        </p>
+                    </div>
+
+                </div>
+            </div>
         </section>
 
         <section class="spotlights">
-
             <h2>Business Spotlights</h2>
-
             <div id="spotlight-container"></div>
-
         </section>
 
     </main>   

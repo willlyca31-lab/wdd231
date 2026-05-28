@@ -108,6 +108,47 @@ main h2 {
     border-radius: 5px;
 }
 
+.weather {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    margin-top: 1rem;
+}
+
+.weather-card {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.weather-icon {
+    width: 90px;
+    height: 90px;
+}
+
+.weather-info {
+    display: flex;
+    flex-direction: column;
+    gap: .4rem;
+}
+
+.weather-info p {
+    margin: 0;
+    font-size: 1rem;
+}
+
+.temp {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #0d47a1;
+}
+
+#description {
+    text-transform: capitalize;
+    color: #555;
+    font-weight: 500;
+}
 .grid {
     display: grid;
     gap: 1rem;
