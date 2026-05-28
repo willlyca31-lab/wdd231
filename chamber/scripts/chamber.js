@@ -175,7 +175,7 @@ function displayCurrentWeather(data) {
 
 apiFetch();
 
-/* ---------------- 3 DAY FORECAST ---------------- */
+/* ---- 3 DAY ----------- */
 
 async function getForecast() {
 
@@ -216,7 +216,7 @@ function displayForecast(data) {
 
 getForecast();
 
-/* ---------------- SPOTLIGHTS ---------------- */
+/* ---- SPOTLIGHTS --------- */
 
 const spotlightContainer =
 document.querySelector("#spotlight-container");
