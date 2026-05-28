@@ -91,7 +91,7 @@
 <main>
 
 
-        <section class="hero">
+    <section class="hero">
 
             <img src="images/hero6.jpg"
                 alt="Import businesses in Querétaro">
@@ -111,10 +111,10 @@
 
             </div>
 
-        </section>
+    </section>
 
 
-        <section class="intro">
+     <section class="intro">
 
             <h2>About Our Chamber</h2>
 
@@ -125,9 +125,9 @@
                 business opportunities.
             </p>
 
-        </section>
+     </section>
 
-        <section class="info-container">
+     <section class="info-container">
 
             <section class="events">
 
@@ -144,42 +144,50 @@
                 </ul>
 
             </section>
+            
+            <section class="weather">
 
-            <div class="section weather">
+                <h2>Current Weather</h2>  
+                <div class="current-weather">
+                <p>
+                    Current Temperature:
+                    <span id="current-temp"></span>
+                </p>
 
-                 <h1>OpenWeatherMap.org API Test</h1>
-            <main>
-                 <p>The current temperature in Queretaro is:  <span id="current-temp"></span></p>
-                      <figure>
-                          <img id="weather-icon" src="images/icon.jpg" alt="Weather Icon">
-                          <figcaption></figcaption>
-                     </figure>
-            </main>
-            <footer>
-            Wilson Cardichon | OpenWeatherMap.org | CC BY-SA 4.0
-            </footer>
-                <h2 id="weather-title">Current Weather</h2>
+                <figure>
+                    <img id="weather-icon" src="images/icon.jpg" alt="Weather Icon">
+                    <figcaption></figcaption>
+                </figure>
+                </div>
+
+                <div class="forecast">
+                <h3>3 Day Forecast</h3>
+
+                <p><span id="day1"></span></p>
+                <p><span id="day2"></span></p>
+                <p><span id="day3"></span></p>
+                </div>
+
+            </section>
+
+            <section class="spotlights">
+                 <h2>Business Spotlights</h2>
+                 <div id="spotlight-container"></div>
+            </section>
+
+
+            <div class="menu-buttons">
+
+                 <button id="grid">Grid View</button>
+                 <button id="list">List View</button>
             </div>
-        </section>
-
-        <section class="spotlights">
-            <h2>Business Spotlights</h2>
-            <div id="spotlight-container"></div>
-        </section>
-
-        <div class="menu-buttons">
-
-            <button id="grid">Grid View</button>
-
-            <button id="list">List View</button>
-
-        </div>
 
 
-        <div id="members"
-            class="grid"></div>
+             <div id="members"  class="grid"></div>
+      </section>
 
-    </main>   
+
+ </main>   
 
     <footer>
 
