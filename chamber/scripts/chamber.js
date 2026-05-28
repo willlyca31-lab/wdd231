@@ -1,3 +1,16 @@
+const year = new Date().getFullYear();
+ document.getElementById("currentyear").textContent = year;
+ document.getElementById("lastModified").textContent = 
+ "Last Modification: "+document.lastModified;
+
+/* MOBILE MENU */
+
+const menuButton = document.querySelector("#menu");
+const navigation = document.querySelector(".navigation");
+
+menuButton.addEventListener("click", () => {
+    navigation.classList.toggle("open");
+});
 
 const apiKey = "56b8b0161336c8a535c9e44906045a6f";
 const city = "Queretaro";
