@@ -1,0 +1,31 @@
+[
+    {
+        "name": "Dragon Imports",
+        "address": "Querétaro, Mexico",
+        "phone": "442-555-1111",
+        "website": "https://dragonimports.com",
+        "image": "images/dragonimport-logo.png",
+        "membership": 3,
+        "description": "Electronics importer from China."
+    },
+
+    {
+        "name": "China Supply Hub",
+        "address": "Querétaro, Mexico",
+        "phone": "442-555-4444",
+        "website": "https://chinasupplyhub.com",
+        "image": "images/chinasuply-logo.png",
+        "membership": 3,
+        "description": "Large importation distributor."
+    },
+
+    {
+        "name": "Querétaro Trade Center",
+        "address": "Querétaro, Mexico",
+        "phone": "442-555-7777",
+        "website": "https://tradecenter.com",
+        "image": "images/queretarotradec-logo.png",
+        "membership": 3,
+        "description": "Business networking and import services."
+    }
+]
