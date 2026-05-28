@@ -63,12 +63,10 @@ header {
 
 .cta-button {
     display: inline-block;
-    background-color: #FF9900;
-    color: white;
-    padding: 1rem;
+    padding: 0.6rem 1rem;
+    font-size: 0.9rem;
+    border-radius: 6px;
     text-decoration: none;
-    margin-top: 1rem;
-    border-radius: 5px;
 }
 
 .intro {
