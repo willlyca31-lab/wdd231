@@ -52,7 +52,10 @@ header {
     display: block;
     padding: 0.8rem;
     background-color: #004080;
+    color: white;
+    text-decoration: none;
     border-radius: 6px;
+    font-weight: bold;
 }
 
 .hero {
