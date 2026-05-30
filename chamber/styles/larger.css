@@ -12,7 +12,7 @@
 
     .navigation {
         display: flex;
-        flex-direction: row;
+        flex-direction: row-reverse;
         gap: 2rem;
     }
 
