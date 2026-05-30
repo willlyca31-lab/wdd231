@@ -1,40 +1,79 @@
-const timestamp = document.querySelector("#timestamp");
+const timestamp =
+document.querySelector("#timestamp");
 
 if (timestamp) {
 
-    timestamp.value = new Date().toISOString();
+    timestamp.value =
+    new Date().toISOString();
 }
 
-/* MODALS */
+/* ---------------- MODALS ---------------- */
 
-const npModal = document.querySelector("#npModal");
-const bronzeModal = document.querySelector("#bronzeModal");
-const silverModal = document.querySelector("#silverModal");
-const goldModal = document.querySelector("#goldModal");
+const npModal =
+document.querySelector("#npModal");
 
-document.querySelector("#openNP")
-.addEventListener("click", () => {
+const bronzeModal =
+document.querySelector("#bronzeModal");
 
-    npModal.showModal();
-});
+const silverModal =
+document.querySelector("#silverModal");
 
-document.querySelector("#openBronze")
-.addEventListener("click", () => {
+const goldModal =
+document.querySelector("#goldModal");
 
-    bronzeModal.showModal();
-});
+const openNP =
+document.querySelector("#openNP");
 
-document.querySelector("#openSilver")
-.addEventListener("click", () => {
+const openBronze =
+document.querySelector("#openBronze");
 
-    silverModal.showModal();
-});
+const openSilver =
+document.querySelector("#openSilver");
 
-document.querySelector("#openGold")
-.addEventListener("click", () => {
+const openGold =
+document.querySelector("#openGold");
 
-    goldModal.showModal();
-});
+/* NP */
+
+if (openNP && npModal) {
+
+    openNP.addEventListener("click", () => {
+
+        npModal.showModal();
+    });
+}
+
+/* BRONZE */
+
+if (openBronze && bronzeModal) {
+
+    openBronze.addEventListener("click", () => {
+
+        bronzeModal.showModal();
+    });
+}
+
+/* SILVER */
+
+if (openSilver && silverModal) {
+
+    openSilver.addEventListener("click", () => {
+
+        silverModal.showModal();
+    });
+}
+
+/* GOLD */
+
+if (openGold && goldModal) {
+
+    openGold.addEventListener("click", () => {
+
+        goldModal.showModal();
+    });
+}
+
+/* CLOSE BUTTONS */
 
 document.querySelectorAll(".closeBtn")
 .forEach(button => {
