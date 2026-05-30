@@ -22,24 +22,37 @@ header {
     cursor: pointer;
 }
 
+#menu::before {
+    content: "☰";
+    font-size: 2rem;
+    
+}
+
+#menu.open::before {
+    content: "✖";
+}
+
 .navigation {
     display: none;
+    flex-direction: column;
     list-style: none;
     margin-top: 1rem;
+    gap: 1rem;
 }
 
 .navigation.open {
-    display: block;
+    display: flex;
 }
 
 .navigation li {
-    margin: 1rem 0;
+    margin: 0;
 }
 
 .navigation a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
+    display: block;
+    padding: 0.8rem;
+    background-color: #004080;
+    border-radius: 6px;
 }
 
 .hero {
