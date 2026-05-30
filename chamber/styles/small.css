@@ -119,6 +119,7 @@ header {
     margin-top: 3rem;
     border-radius: 12px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    animation: fadeUp 1s ease forwards;
 }
 
 .spotlights {
@@ -127,6 +128,7 @@ header {
     padding: 2rem;
     border-radius: 12px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    animation: fadeUp 1s ease forwards;
 }
 
 #spotlight-container {
@@ -162,6 +164,7 @@ main h2 {
     padding: 1.5rem;
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
     margin-top: 1rem;
+    animation: fadeUp 1s ease forwards;
 }
 
 .weather-card {
@@ -207,6 +210,7 @@ main h2 {
     padding: 1rem;
     border-radius: 10px;
     text-align: center;
+    animation: fadeUp 1s ease forwards;
 }
 
 .grid img {
@@ -229,6 +233,7 @@ main h2 {
     background-color: white;
     padding: 1rem;
     border-radius: 10px;
+    animation: fadeUp 1s ease forwards;
 }
 
 .list img {
@@ -240,6 +245,7 @@ footer {
     color: white;
     padding: 2rem 1rem;
     margin-top: 2rem;
+    animation: fadeUp 1s ease forwards;
 }
 #lastModified {
     color: yellow;
@@ -283,28 +289,3 @@ footer p {
     }
 }
 
-/* HOME PAGE SECTIONS */
-
-.intro,
-.weather,
-.spotlights,
-.info-container,
-.grid section,
-.list section {
-
-    animation: fadeUp 1s ease forwards;
-}
-
-/* STAGGER EFFECT */
-
-.weather {
-    animation-delay: 0.2s;
-}
-
-.info-container {
-    animation-delay: 0.4s;
-}
-
-.spotlights {
-    animation-delay: 0.6s;
-}
