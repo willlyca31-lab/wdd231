@@ -53,13 +53,20 @@ header {
 }
 
 .hero-text h1 {
-    font-size: 1rem;
+    font-size: 0.1rem;
     margin-bottom: 0.3rem;
+    line-height:1.1;
 }
 
-.hero-text p {
-    font-size: 0.8rem;
-    margin-bottom: 0.5rem;
+.hero-text {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    width: 55%;
+    background-color: rgba(0, 0, 0, 0.55);
+    padding: 1rem;
+    border-radius: 10px;
+    color: white;
 }
 
 .cta-button {
@@ -80,11 +87,9 @@ header {
 
 .intro {
     background: white;
-    margin-top: 10rem;
     padding: 1.5rem;
     border-radius: 12px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-
     width: 90%;
     margin-left: auto;
     margin-right: auto;
