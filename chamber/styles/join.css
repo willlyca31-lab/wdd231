@@ -1,0 +1,138 @@
+.join-main {
+    padding: 2rem 1rem;
+}
+
+.join-main h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.join-layout {
+    display: grid;
+    gap: 2rem;
+}
+
+.join-form {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.join-form label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+.join-form input,
+.join-form select,
+.join-form textarea {
+    padding: .8rem;
+    margin-top: .4rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+.submit-btn {
+    background-color: #003366;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.submit-btn:hover {
+    background-color: #00509e;
+}
+
+.membership-cards {
+    display: grid;
+    gap: 1rem;
+}
+
+.card {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+
+    opacity: 0;
+    transform: translateY(20px);
+
+    animation: fadeUp 1s ease forwards;
+}
+
+.card:nth-child(1) {
+    animation-delay: .2s;
+}
+
+.card:nth-child(2) {
+    animation-delay: .4s;
+}
+
+.card:nth-child(3) {
+    animation-delay: .6s;
+}
+
+.card:nth-child(4) {
+    animation-delay: .8s;
+}
+
+@keyframes fadeUp {
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.card button {
+    margin-top: 1rem;
+    padding: .7rem 1rem;
+    border: none;
+    background-color: #cc7000;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+dialog {
+    padding: 2rem;
+    border: none;
+    border-radius: 12px;
+    max-width: 400px;
+}
+
+dialog::backdrop {
+    background: rgba(0,0,0,0.5);
+}
+
+.closeBtn {
+    margin-top: 1rem;
+    padding: .7rem 1rem;
+    border: none;
+    background-color: #003366;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.results {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    width: 90%;
+    margin: auto;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+@media only screen and (min-width: 768px) {
+
+    .join-layout {
+        grid-template-columns: 2fr 1fr;
+        align-items: start;
+    }
+}
