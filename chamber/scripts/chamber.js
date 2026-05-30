@@ -1,11 +1,14 @@
 const yearEl = document.getElementById("currentyear");
+
 const modEl = document.getElementById("lastModified");
 
 if (yearEl) {
+
     yearEl.textContent = new Date().getFullYear();
 }
 
 if (modEl) {
+
     modEl.textContent =
     "Last Modification: " + document.lastModified;
 }
@@ -13,12 +16,18 @@ if (modEl) {
 /* ---------------- MOBILE MENU ---------------- */
 
 const hamButton = document.querySelector('#menu');
+
 const navigation = document.querySelector('.navigation');
 
-hamButton.addEventListener('click', () => {
-    navigation.classList.toggle('open');
-    hamButton.classList.toggle('open');
-});
+if (hamButton && navigation) {
+
+    hamButton.addEventListener('click', () => {
+
+        navigation.classList.toggle('open');
+
+        hamButton.classList.toggle('open');
+    });
+}
 
 /* ---------------- MEMBERS DIRECTORY ---------------- */
 
@@ -28,18 +37,36 @@ const cards = document.querySelector("#members");
 
 async function getMembers() {
 
-    const response = await fetch(url);
+    try {
 
-    const data = await response.json();
+        const response = await fetch(url);
 
-    displayMembers(data);
+        const data = await response.json();
 
-    displaySpotlights(data);
+        if (cards) {
+
+            displayMembers(data);
+        }
+
+        if (spotlightContainer) {
+
+            displaySpotlights(data);
+        }
+
+    } catch (error) {
+
+        console.log(error);
+    }
 }
 
-getMembers();
+if (cards || document.querySelector("#spotlight-container")) {
+
+    getMembers();
+}
 
 const displayMembers = (members) => {
+
+    if (!cards) return;
 
     members.forEach((member) => {
 
@@ -100,128 +127,147 @@ const gridButton = document.querySelector("#grid");
 
 const listButton = document.querySelector("#list");
 
-gridButton.addEventListener("click", () => {
+if (gridButton && cards) {
 
-    cards.classList.add("grid");
+    gridButton.addEventListener("click", () => {
 
-    cards.classList.remove("list");
+        cards.classList.add("grid");
 
-});
+        cards.classList.remove("list");
 
-listButton.addEventListener("click", () => {
+    });
+}
 
-    cards.classList.add("list");
+if (listButton && cards) {
 
-    cards.classList.remove("grid");
+    listButton.addEventListener("click", () => {
 
-});
+        cards.classList.add("list");
+
+        cards.classList.remove("grid");
+
+    });
+}
 
 /* ---------------- WEATHER API ---------------- */
 
-const key = "56b8b0161336c8a535c9e44906045a6f";
+const temp = document.querySelector("#current-temp");
 
-const weatherURL =
-`https://api.openweathermap.org/data/2.5/weather?lat=20.5888&lon=-100.3899&units=metric&appid=${key}`;
+const icon = document.querySelector("#weather-icon");
 
-const forecastURL =
-`https://api.openweathermap.org/data/2.5/forecast?lat=20.5888&lon=-100.3899&units=metric&appid=${key}`;
+const caption = document.querySelector("figcaption");
 
-async function apiFetch() {
+if (temp && icon && caption) {
 
-    try {
+    const key = "56b8b0161336c8a535c9e44906045a6f";
 
-        const response = await fetch(weatherURL);
+    const weatherURL =
+    `https://api.openweathermap.org/data/2.5/weather?lat=20.5888&lon=-100.3899&units=metric&appid=${key}`;
 
-        if (response.ok) {
+    async function apiFetch() {
 
-            const data = await response.json();
+        try {
 
-            displayCurrentWeather(data);
+            const response = await fetch(weatherURL);
 
-        } else {
+            if (response.ok) {
 
-            throw Error(await response.text());
+                const data = await response.json();
 
+                displayCurrentWeather(data);
+
+            } else {
+
+                throw Error(await response.text());
+            }
+
+        } catch (error) {
+
+            console.log(error);
         }
-
-    } catch (error) {
-
-        console.log(error);
-
     }
+
+    function displayCurrentWeather(data) {
+
+        temp.innerHTML =
+        `${data.main.temp.toFixed(1)}°C`;
+
+        const iconsrc =
+        `https://openweathermap.org/img/w/${data.weather[0].icon}.png`;
+
+        const desc = data.weather[0].description;
+
+        icon.setAttribute("src", iconsrc);
+
+        icon.setAttribute("alt", desc);
+
+        caption.textContent = desc;
+    }
+
+    apiFetch();
 }
 
-function displayCurrentWeather(data) {
+/* ---------------- FORECAST ---------------- */
 
-    const temp = document.querySelector("#current-temp");
+const day1 = document.querySelector("#day1");
 
-    const icon = document.querySelector("#weather-icon");
+const day2 = document.querySelector("#day2");
 
-    const caption = document.querySelector("figcaption");
+const day3 = document.querySelector("#day3");
 
-    temp.innerHTML = `${data.main.temp.toFixed(1)}°C`;
+if (day1 && day2 && day3) {
 
-    const iconsrc =
-    `https://openweathermap.org/img/w/${data.weather[0].icon}.png`;
+    const key = "56b8b0161336c8a535c9e44906045a6f";
 
-    const desc = data.weather[0].description;
+    const forecastURL =
+    `https://api.openweathermap.org/data/2.5/forecast?lat=20.5888&lon=-100.3899&units=metric&appid=${key}`;
 
-    icon.setAttribute("src", iconsrc);
+    async function getForecast() {
 
-    icon.setAttribute("alt", desc);
+        try {
 
-    caption.textContent = desc;
-}
+            const response = await fetch(forecastURL);
 
-apiFetch();
+            if (response.ok) {
 
-/* ---- 3 DAY ----------- */
+                const data = await response.json();
 
-async function getForecast() {
+                displayForecast(data);
+            }
 
-    try {
+        } catch (error) {
 
-        const response = await fetch(forecastURL);
-
-        if (response.ok) {
-
-            const data = await response.json();
-
-            displayForecast(data);
-
+            console.log(error);
         }
-
-    } catch (error) {
-
-        console.log(error);
-
     }
+
+    function displayForecast(data) {
+
+        const forecastDays = data.list.filter(item =>
+            item.dt_txt.includes("12:00:00")
+        );
+
+        day1.textContent =
+        `Day 1: ${forecastDays[0].main.temp.toFixed(1)}°C`;
+
+        day2.textContent =
+        `Day 2: ${forecastDays[1].main.temp.toFixed(1)}°C`;
+
+        day3.textContent =
+        `Day 3: ${forecastDays[2].main.temp.toFixed(1)}°C`;
+    }
+
+    getForecast();
 }
 
-function displayForecast(data) {
-
-    const forecastDays = data.list.filter(item =>
-        item.dt_txt.includes("12:00:00")
-    );
-
-    document.querySelector("#day1").textContent =
-    `Day 1: ${forecastDays[0].main.temp.toFixed(1)}°C`;
-
-    document.querySelector("#day2").textContent =
-    `Day 2: ${forecastDays[1].main.temp.toFixed(1)}°C`;
-
-    document.querySelector("#day3").textContent =
-    `Day 3: ${forecastDays[2].main.temp.toFixed(1)}°C`;
-}
-
-getForecast();
-
-/* ---- SPOTLIGHTS --------- */
+/* ---------------- SPOTLIGHTS ---------------- */
 
 const spotlightContainer =
 document.querySelector("#spotlight-container");
 
 function displaySpotlights(members) {
+
+    if (!spotlightContainer) return;
 
     spotlightContainer.innerHTML = "";
 
@@ -247,7 +293,6 @@ function displaySpotlights(members) {
         } else {
 
             level = "Silver";
-
         }
 
         card.innerHTML = `
