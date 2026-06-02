@@ -1,4 +1,4 @@
-import { places } from "../data/discover.mjs";
+import { places } from "../data/items.mjs";
 
 const container = document.querySelector("#discover-container");
 
