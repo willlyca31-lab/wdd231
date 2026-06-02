@@ -6,7 +6,7 @@ body {
 
 header {
     background-color: #003366;
-    color: white;
+    color: #ffffff;
     padding: 1rem;
 }
 
@@ -18,7 +18,7 @@ header {
     font-size: 2rem;
     background: none;
     border: none;
-    color: white;
+    color: #ffffff;
     cursor: pointer;
 }
 
@@ -52,7 +52,7 @@ header {
     display: block;
     padding: 0.8rem;
     background-color: #004080;
-    color: white;
+    color: #ffffff;
     text-decoration: none;
     border-radius: 6px;
     font-weight: bold;
@@ -82,7 +82,7 @@ header {
     background-color: rgba(0, 0, 0, 0.55);
     padding: 1rem;
     border-radius: 10px;
-    color: white;
+    color: #ffffff;
 }
 
 .cta-button {
@@ -102,7 +102,7 @@ header {
 }
 
 .intro {
-    background: white;
+    background: #ffffff;
     padding: 1.5rem;
     border-radius: 12px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
@@ -115,7 +115,7 @@ header {
     display: grid;
     gap: 1rem;
     padding: 2rem;
-    background: white;
+    background: #ffffff;
     margin-top: 3rem;
     border-radius: 12px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
@@ -123,7 +123,7 @@ header {
 }
 
 .spotlights {
-    background: white;
+    background: #ffffff;
     margin-top: 3rem;
     padding: 2rem;
     border-radius: 12px;
@@ -152,7 +152,7 @@ main h2 {
     padding: 0.7rem 1rem;
     border: none;
     background-color: #cc7000;
-    color: white;
+    color: #ffffff;
     cursor: pointer;
     margin-right: 1rem;
     border-radius: 5px;
@@ -206,7 +206,7 @@ main h2 {
 }
 
 .grid section {
-    background-color: white;
+    background-color:#ffffff;
     padding: 1rem;
     border-radius: 10px;
     text-align: center;
@@ -230,7 +230,7 @@ main h2 {
 }
 
 .list section {
-    background-color: white;
+    background-color:#ffffff;
     padding: 1rem;
     border-radius: 10px;
     animation: fadeUp 1s ease forwards;

@@ -13,7 +13,7 @@
 }
 
 .join-form {
-    background: white;
+    background: #ffffff;
     padding: 2rem;
     border-radius: 12px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
@@ -38,7 +38,7 @@
 
 .submit-btn {
     background-color: #003366;
-    color: white;
+    color: #ffffff;
     border: none;
     cursor: pointer;
     font-weight: bold;
@@ -115,13 +115,13 @@ dialog::backdrop {
     padding: .7rem 1rem;
     border: none;
     background-color: #003366;
-    color: white;
+    color: #ffffff;
     border-radius: 6px;
     cursor: pointer;
 }
 
 .results {
-    background: white;
+    background: #ffffff;
     padding: 2rem;
     border-radius: 12px;
     width: 90%;
