@@ -1,6 +1,6 @@
 import { places } from "../data/items.mjs";
 
-const container = document.querySelector("#discover-container");
+const container = document.querySelector("#items-container");
 
 places.forEach((place, index) => {
 
