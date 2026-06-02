@@ -1,7 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #f5f5f5;
-    color: #222;
+    background-color: #ffffff;
+    color: #000000;
 }
 
 header {
@@ -93,8 +93,8 @@ header {
     font-size: 0.8rem;
     font-weight: bold;
 
-    background-color: #ff9900;
-    color: black;
+    background-color: #ffff00;
+    color: #000000;
 
     text-decoration: none;
 
@@ -242,13 +242,13 @@ main h2 {
 
 footer {
     background-color: #003366;
-    color: white;
+    color: #ffffff;
     padding: 2rem 1rem;
     margin-top: 2rem;
     animation: fadeUp 1s ease forwards;
 }
 #lastModified {
-    color: yellow;
+    color: #ffff00;
     display: block;
     align-items: center;
 }
@@ -259,7 +259,7 @@ footer {
 
 .socials a {
     text-decoration: none;
-    color: black;
+    color: #000000;
     font-weight: bold;
     margin: 0 12px;
     font-size: 1.2rem;
