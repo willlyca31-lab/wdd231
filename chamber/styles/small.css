@@ -240,11 +240,6 @@ main h2 {
     display: none;
 }
 
-.visually-hidden {
-    position: absolute;
-    left: -9999px;
-}
-
 footer {
     background-color: #003366;
     color: white;
