@@ -24,7 +24,9 @@ places.forEach((place, index) => {
 
         <p>${place.description}</p>
 
-        <button>Learn More</button>
+         <button aria-label="Learn more about ${place.title}"> 
+              Learn More
+         </button>    
     `;
 
     container.appendChild(card);
