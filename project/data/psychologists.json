@@ -1,0 +1,138 @@
+
+[
+    {
+        "id": 1,
+        "name": "Dr. Sofia Ramirez",
+        "specialty": "Anxiety and Depression",
+        "location": "Queretaro, Mexico",
+        "experience": 12,
+        "email": "sofia.ramirez@example.com",
+        "rating": 4.9
+    },
+    {
+        "id": 2,
+        "name": "Dr. Daniel Ortega",
+        "specialty": "Family Therapy",
+        "location": "Mexico City, Mexico",
+        "experience": 8,
+        "email": "daniel.ortega@example.com",
+        "rating": 4.8
+    },
+    {
+        "id": 3,
+        "name": "Dr. Camila Torres",
+        "specialty": "Child Psychology",
+        "location": "Guadalajara, Mexico",
+        "experience": 10,
+        "email": "camila.torres@example.com",
+        "rating": 4.7
+    },
+    {
+        "id": 4,
+        "name": "Dr. Luis Herrera",
+        "specialty": "Trauma Therapy",
+        "location": "Monterrey, Mexico",
+        "experience": 15,
+        "email": "luis.herrera@example.com",
+        "rating": 4.9
+    },
+    {
+        "id": 5,
+        "name": "Dr. Maria Lopez",
+        "specialty": "Relationship Counseling",
+        "location": "Puebla, Mexico",
+        "experience": 7,
+        "email": "maria.lopez@example.com",
+        "rating": 4.6
+    },
+    {
+        "id": 6,
+        "name": "Dr. Javier Cruz",
+        "specialty": "Stress Management",
+        "location": "Tijuana, Mexico",
+        "experience": 9,
+        "email": "javier.cruz@example.com",
+        "rating": 4.8
+    },
+    {
+        "id": 7,
+        "name": "Dr. Elena Morales",
+        "specialty": "Behavioral Therapy",
+        "location": "Leon, Mexico",
+        "experience": 11,
+        "email": "elena.morales@example.com",
+        "rating": 4.7
+    },
+    {
+        "id": 8,
+        "name": "Dr. Andres Castillo",
+        "specialty": "Addiction Recovery",
+        "location": "Merida, Mexico",
+        "experience": 13,
+        "email": "andres.castillo@example.com",
+        "rating": 4.9
+    },
+    {
+        "id": 9,
+        "name": "Dr. Isabella Vega",
+        "specialty": "Cognitive Therapy",
+        "location": "Cancun, Mexico",
+        "experience": 6,
+        "email": "isabella.vega@example.com",
+        "rating": 4.5
+    },
+    {
+        "id": 10,
+        "name": "Dr. Mateo Ruiz",
+        "specialty": "Mental Wellness Coaching",
+        "location": "Toluca, Mexico",
+        "experience": 5,
+        "email": "mateo.ruiz@example.com",
+        "rating": 4.6
+    },
+    {
+        "id": 11,
+        "name": "Dr. Valeria Mendoza",
+        "specialty": "PTSD Therapy",
+        "location": "Chihuahua, Mexico",
+        "experience": 14,
+        "email": "valeria.mendoza@example.com",
+        "rating": 4.9
+    },
+    {
+        "id": 12,
+        "name": "Dr. Ricardo Silva",
+        "specialty": "Clinical Psychology",
+        "location": "San Luis Potosi, Mexico",
+        "experience": 16,
+        "email": "ricardo.silva@example.com",
+        "rating": 4.8
+    },
+    {
+        "id": 13,
+        "name": "Dr. Natalia Flores",
+        "specialty": "Teen Counseling",
+        "location": "Aguascalientes, Mexico",
+        "experience": 9,
+        "email": "natalia.flores@example.com",
+        "rating": 4.7
+    },
+    {
+        "id": 14,
+        "name": "Dr. Emilio Navarro",
+        "specialty": "Mindfulness Therapy",
+        "location": "Veracruz, Mexico",
+        "experience": 7,
+        "email": "emilio.navarro@example.com",
+        "rating": 4.6
+    },
+    {
+        "id": 15,
+        "name": "Dr. Fernanda Reyes",
+        "specialty": "Emotional Support Therapy",
+        "location": "Oaxaca, Mexico",
+        "experience": 10,
+        "email": "fernanda.reyes@example.com",
+        "rating": 4.8
+    }
+]
