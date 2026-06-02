@@ -274,6 +274,14 @@ footer p {
     font-size: 0.9rem;
 }
 
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
 /* --- ANIMATION ------- */
 
 @keyframes fadeUp {

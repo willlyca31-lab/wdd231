@@ -43,6 +43,12 @@
     <link rel="stylesheet"
         href="styles/larger.css">
 
+    <link rel="stylesheet"
+        href="styles/medium.css">
+
+    <link rel="stylesheet"
+        href="styles/discover.css">
+
 
     <link rel="preconnect"
         href="https://fonts.googleapis.com">
@@ -56,6 +62,7 @@
 
 
     <script src="scripts/chamber.js" defer></script>
+    <script src="scripts/discover.js" defer></script>
 
 </head>
 
@@ -81,13 +88,25 @@
 
                 <li><a href="join.html">Join</a></li>
 
-                <li><a href="discover.html">Discover</a></li>
+                <li><a href="discover.html" class="active">Discover</a></li>
 
             </ul>
 
         </nav>
-
     </header>
+
+    <main class="discover-main">
+         <section class="visitor-message">
+            <h1>Discover Business Opportunities</h1>
+            <p>
+                Explore the commercial spaces, training centers,
+                and networking locations that support importation
+                businesses and entrepreneurs in our community.
+            </p>
+                    <p id="visit-message"></p>
+           </section>
+            <section class="discover-grid" id="discover-container"></section>
+   </main>
 
 
     <footer>

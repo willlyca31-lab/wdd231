@@ -94,3 +94,27 @@
         font-size: 0.9rem;
     }
 }
+
+@media screen and (min-width: 1025px) {
+
+    .discover-grid {
+
+        grid-template-columns: 1fr 1fr 1fr;
+
+        grid-template-areas:
+            "card1 card1 card2"
+            "card3 card4 card2"
+            "card5 card6 card7"
+            "card8 card8 card7";
+    }
+
+    .card img {
+        transition: transform 0.3s ease,
+                    filter 0.3s ease;
+    }
+
+    .card img:hover {
+        transform: scale(1.05);
+        filter: brightness(1.1);
+    }
+}
