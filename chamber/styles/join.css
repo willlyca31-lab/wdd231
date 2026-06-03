@@ -31,7 +31,7 @@
 .join-form textarea {
     padding: .8rem;
     margin-top: .4rem;
-    border: 1px solid #ffffff;
+    border: 1px solid #ccc;
     border-radius: 8px;
     font-size: 1rem;
 }
@@ -94,7 +94,7 @@
     padding: .7rem 1rem;
     border: none;
     background-color: #cc7000;
-    color: black;
+    color: #ffffff;
     border-radius: 6px;
     cursor: pointer;
 }
