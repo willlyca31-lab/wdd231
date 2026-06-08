@@ -77,3 +77,35 @@ closeModal.addEventListener('click', () => {
 
 getPsychologists();
 
+const gridButton = document.querySelector('#grid-view');
+
+const listButton = document.querySelector('#list-view');
+
+gridButton.addEventListener('click', () => {
+
+  container.classList.add('directory-grid');
+
+  container.classList.remove('directory-list');
+
+  localStorage.setItem('view', 'grid');
+});
+
+listButton.addEventListener('click', () => {
+
+  container.classList.add('directory-list');
+
+  container.classList.remove('directory-grid');
+
+  localStorage.setItem('view', 'list');
+});
+
+
+const savedView = localStorage.getItem('view');
+
+if (savedView === 'list') {
+
+  container.classList.add('directory-list');
+
+  container.classList.remove('directory-grid');
+
+}
