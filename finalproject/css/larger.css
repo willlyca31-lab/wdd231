@@ -1,53 +1,99 @@
 @media screen and (min-width: 768px) {
 
-  header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
 
-  #menu-button {
-    display: none;
-  }
+    /* ------------------------------
+       HEADER
+    -------------------------------- */
 
-  .navigation {
-    display: flex;
-    gap: 1rem;
-  }
+    header {
 
-  .navigation li {
-    list-style: none;
-  }
+        display: flex;
 
-  .hero-text {
-    max-width: 500px;
-  }
+        justify-content: space-between;
 
-  .featured-grid {
-    grid-template-columns: repeat(3, 1fr);
-  }
+        align-items: center;
+    }
 
-  .directory-grid {
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  }
 
-  .articles-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
+    /* ------------------------------
+       NAVIGATION
+    -------------------------------- */
 
-  form {
-    padding: 2rem;
-  }
+    #menu-button {
 
-  .directory-controls {
-    display: flex;
-    gap: 1rem;
-    margin: 1rem;
-  }
+        display: none;
+    }
 
-  footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
+    .navigation {
+
+        display: flex;
+
+        gap: 1rem;
+
+        margin-top: 0;
+    }
+
+    .navigation li {
+
+        margin-bottom: 0;
+    }
+
+
+    /* ------------------------------
+       HERO
+    -------------------------------- */
+
+    .hero img {
+
+        height: 550px;
+    }
+
+
+    /* ------------------------------
+       GRIDS
+    -------------------------------- */
+
+    .featured-grid {
+
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .directory-grid {
+
+        grid-template-columns:
+            repeat(auto-fit, minmax(320px, 1fr));
+    }
+
+    .articles-grid {
+
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
+    /* ------------------------------
+       DIRECTORY CONTROLS
+    -------------------------------- */
+
+    .directory-controls {
+
+        display: flex;
+
+        gap: 1rem;
+
+        margin-bottom: 2rem;
+    }
+
+
+    /* ------------------------------
+       FOOTER
+    -------------------------------- */
+
+    footer {
+
+        display: flex;
+
+        justify-content: space-between;
+
+        align-items: center;
+    }
 }
