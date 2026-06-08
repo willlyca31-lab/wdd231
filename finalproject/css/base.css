@@ -1,0 +1,135 @@
+:root {
+
+  --primary: #1E3A5F;
+  --secondary: #7FB77E;
+  --light: #F5F5F5;
+  --dark: #222;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: var(--light);
+  color: var(--dark);
+}
+
+header {
+  background: var(--primary);
+  color: white;
+  padding: 1rem;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+#menu-button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 2rem;
+}
+
+.navigation {
+  display: none;
+  list-style: none;
+  padding: 0;
+}
+
+.navigation.open {
+  display: block;
+}
+
+.navigation a {
+  display: block;
+  padding: 1rem;
+  text-decoration: none;
+  color: white;
+}
+
+.active {
+  background: var(--secondary);
+}
+
+.hero {
+  position: relative;
+}
+
+.hero img {
+  width: 100%;
+  height: auto;
+}
+
+.hero-text {
+  position: absolute;
+  bottom: 2rem;
+  left: 2rem;
+  background: rgba(0,0,0,.6);
+  color: white;
+  padding: 1rem;
+}
+
+.btn {
+  display: inline-block;
+  padding: .8rem 1.2rem;
+  background: var(--secondary);
+  color: white;
+  text-decoration: none;
+  margin-top: 1rem;
+}
+
+.featured-grid,
+.directory-grid,
+.articles-grid {
+  display: grid;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.feature-card,
+.directory-card,
+.article-card {
+  background: white;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+form {
+  max-width: 600px;
+  margin: auto;
+  display: grid;
+  gap: 1rem;
+}
+
+input,
+select,
+textarea {
+  padding: .8rem;
+}
+
+button {
+  padding: .8rem;
+  background: var(--primary);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+dialog {
+  padding: 2rem;
+  border-radius: 10px;
+  border: none;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem;
+  background: var(--primary);
+  color: white;
+}

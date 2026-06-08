@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Managing Anxiety",
+    "category": "Mental Health",
+    "author": "Dr. Maria Lopez",
+    "description": "Learn effective ways to reduce stress and anxiety."
+  },
+
+  {
+    "title": "Healthy Sleep Habits",
+    "category": "Wellness",
+    "author": "Dr. Carlos Vega",
+    "description": "Improve mental health through better sleep routines."
+  },
+
+  {
+    "title": "Understanding Depression",
+    "category": "Depression",
+    "author": "Dr. Ana Ruiz",
+    "description": "Recognizing symptoms and seeking support."
+  }
+]
