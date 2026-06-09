@@ -6,7 +6,7 @@
     "location": "Queretaro, Mexico",
     "experience": "10 Years",
     "bio": "Experienced psychologist specializing in anxiety disorders.",
-    "image": "images/psychologists/maria.webp"
+    "image": "images/maria.webp"
   },
 
   {
@@ -16,7 +16,7 @@
     "location": "Mexico City, Mexico",
     "experience": "8 Years",
     "bio": "Helping patients improve emotional wellness and resilience.",
-    "image": "images/psychologists/carlos.webp"
+    "image": "images/carlos.webp"
   },
 
   {
@@ -26,6 +26,6 @@
     "location": "Monterrey, Mexico",
     "experience": "12 Years",
     "bio": "Family and relationship therapy specialist.",
-    "image": "images/psychologists/ana.webp"
+    "image": "images/ana.webp"
   }
 ]
