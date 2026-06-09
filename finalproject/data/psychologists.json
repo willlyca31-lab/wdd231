@@ -30,11 +30,11 @@
   },
  {
     "id": 4,
-    "name": "Lic. Ana Ruiz",
-    "specialty": "Family Therapy",
-    "location": "Monterrey, Mexico",
+    "name": "Lic. Petter Ruiz",
+    "specialty": "Anxiety Therapy",
+    "location": "Puebla, Mexico",
     "experience": "12 Years",
-    "bio": "Family and relationship therapy specialist.",
-    "image": "images/ana.webp"
+    "bio": "Experienced psychologist specializing in anxiety disorders.",
+    "image": "images/petter.webp"
   }
 ]
