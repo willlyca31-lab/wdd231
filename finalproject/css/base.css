@@ -398,6 +398,14 @@ textarea {
     min-height: 150px;
 
     resize: vertical;
+
+    border: 1px solid #ccc;
+
+    border-radius: 6px;
+
+    font-size: 1rem;
+
+    background-color: #fff;
 }
 
 
@@ -605,6 +613,15 @@ footer {
     margin-top: 2rem;
 }
 
+footer h2 {
+
+    color: white;
+
+    font-weight: 700;
+
+    font-family: 'Poppins', sans-serif;
+}
+
 .socials {
     margin-bottom: 14px;
 }
@@ -631,6 +648,10 @@ footer {
         background-color .3s ease,
         transform .3s ease;
 }
+
+
+
+
 
 
 /* ------------------------------
