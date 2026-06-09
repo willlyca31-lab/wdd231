@@ -10,21 +10,85 @@ if(lastModified) {
   lastModified.textContent = `Last Modified: ${document.lastModified}`;
 }
 
-const confirmationResults = document.querySelector('#confirmation-results');
+const confirmationResults =
+    document.querySelector('#confirmation-results');
 
-if (confirmationResults) {
+ if (confirmationResults) {
 
-  const params = new URLSearchParams(window.location.search);
+    const params =
+        new URLSearchParams(window.location.search);
 
-  confirmationResults.innerHTML = `
-    <p><strong>Name:</strong> ${params.get('fullname')}</p>
+    if (params.get('fullname')) {
 
-    <p><strong>Email:</strong> ${params.get('email')}</p>
+        confirmationResults.innerHTML = `
 
-    <p><strong>Phone:</strong> ${params.get('phone')}</p>
+            <h2>Appointment Request Submitted</h2>
 
-    <p><strong>Specialty:</strong> ${params.get('specialty')}</p>
+            <p>
+                <strong>Name:</strong>
+                ${params.get('fullname')}
+            </p>
 
-    <p><strong>Message:</strong> ${params.get('message')}</p>
-  `;
+            <p>
+                <strong>Email:</strong>
+                ${params.get('email')}
+            </p>
+
+            <p>
+                <strong>Phone:</strong>
+                ${params.get('phone')}
+            </p>
+
+            <p>
+                <strong>Specialty:</strong>
+                ${params.get('specialty')}
+            </p>
+
+            <p>
+                <strong>Message:</strong>
+                ${params.get('message')}
+            </p>
+        `;
+    }
+
+
+    if (params.get('psychologist-name')) {
+
+        confirmationResults.innerHTML = `
+
+            <h2>
+                Psychologist Application Submitted
+            </h2>
+
+            <p>
+                <strong>Name:</strong>
+                ${params.get('psychologist-name')}
+            </p>
+
+            <p>
+                <strong>License Number:</strong>
+                ${params.get('license')}
+            </p>
+
+            <p>
+                <strong>Specialization:</strong>
+                ${params.get('specialization')}
+            </p>
+
+            <p>
+                <strong>Experience:</strong>
+                ${params.get('experience')} years
+            </p>
+
+            <p>
+                <strong>Email:</strong>
+                ${params.get('psychologist-email')}
+            </p>
+
+            <p>
+                <strong>Biography:</strong>
+                ${params.get('bio')}
+            </p>
+        `;
+    }
 }

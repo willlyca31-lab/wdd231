@@ -44,40 +44,150 @@
 
 <main>
 
-  <h1>Appointment Request Form</h1>
+    <h1>Appointment Request Form</h1>
 
-  <form method="get" action="confirmation.html">
+        <form method="get" action="confirmation.html">
 
-    <label for="fullname">Full Name</label>
-    <input type="text" id="fullname" name="fullname" required>
+            <label for="fullname">Full Name</label>
+            <input type="text" id="fullname" name="fullname" required>
 
-    <label for="email">Email</label>
-    <input type="email" id="email" name="email" required>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
 
-    <label for="phone">Phone Number</label>
-    <input type="tel" id="phone" name="phone">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone">
 
-    <label for="specialty">Preferred Specialty</label>
+            <label for="specialty">Preferred Specialty</label>
 
-    <select id="specialty" name="specialty">
+            <select id="specialty" name="specialty">
 
-      <option value="Anxiety">Anxiety</option>
+            <option value="Anxiety">Anxiety</option>
 
-      <option value="Depression">Depression</option>
+            <option value="Depression">Depression</option>
 
-      <option value="Family Therapy">Family Therapy</option>
+            <option value="Family Therapy">Family Therapy</option>
 
-      <option value="Stress Management">Stress Management</option>
+            <option value="Stress Management">Stress Management</option>
 
-    </select>
+            </select>
 
-    <label for="message">Message</label>
+            <label for="message">Message</label>
 
-    <textarea id="message" name="message"></textarea>
+            <textarea id="message" name="message"></textarea>
 
-    <button type="submit">Submit Request</button>
+            <button type="submit">Submit Request</button>
 
-  </form>
+        </form>
+
+    <section class="join-network">
+
+        <h2>Join Our Professional Network</h2>
+
+        <p>
+            Licensed psychologists and mental health professionals
+            can apply to join the GoodMind Psychology Network.
+        </p>
+
+        <form method="get" action="confirmation.html">
+
+            <label for="psychologist-name">
+                Full Name
+            </label>
+
+            <input
+                type="text"
+                id="psychologist-name"
+                name="psychologist-name"
+                required
+            >
+
+            <label for="license">
+                Professional License Number
+            </label>
+
+            <input
+                type="text"
+                id="license"
+                name="license"
+                required
+            >
+
+            <label for="specialization">
+                Area of Specialization
+            </label>
+
+            <select
+                id="specialization"
+                name="specialization"
+                required
+            >
+
+                <option value="">
+                    Select Specialization
+                </option>
+
+                <option value="Anxiety Therapy">
+                    Anxiety Therapy
+                </option>
+
+                <option value="Depression Treatment">
+                    Depression Treatment
+                </option>
+
+                <option value="Family Therapy">
+                    Family Therapy
+                </option>
+
+                <option value="Child Psychology">
+                    Child Psychology
+                </option>
+
+                <option value="Trauma Therapy">
+                    Trauma Therapy
+                </option>
+
+            </select>
+
+            <label for="experience">
+                Years of Experience
+            </label>
+
+            <input
+                type="number"
+                id="experience"
+                name="experience"
+                min="1"
+                required
+            >
+
+            <label for="psychologist-email">
+                Professional Email
+            </label>
+
+            <input
+                type="email"
+                id="psychologist-email"
+                name="psychologist-email"
+                required
+            >
+
+            <label for="bio">
+                Professional Biography
+            </label>
+
+            <textarea
+                id="bio"
+                name="bio"
+                required
+            ></textarea>
+
+            <button type="submit">
+                Apply to Join
+            </button>
+
+        </form>
+
+    </section>
 
 </main>
 

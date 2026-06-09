@@ -3,20 +3,23 @@
     "title": "Managing Anxiety",
     "category": "Mental Health",
     "author": "Dr. Maria Lopez",
-    "description": "Learn effective ways to reduce stress and anxiety."
+    "description": "Learn effective ways to reduce stress and anxiety.",
+    "content": "Anxiety affects millions of people worldwide. Practicing mindfulness, breathing exercises, regular sleep schedules, and therapy sessions can greatly improve emotional regulation and reduce stress symptoms."
   },
 
   {
     "title": "Healthy Sleep Habits",
     "category": "Wellness",
     "author": "Dr. Carlos Vega",
-    "description": "Improve mental health through better sleep routines."
+    "description": "Improve mental health through better sleep routines.",
+    "content": "Healthy sleep habits include reducing screen time before bed, maintaining consistent sleeping hours, avoiding caffeine late at night, and creating a calm sleep environment."
   },
 
   {
     "title": "Understanding Depression",
     "category": "Depression",
     "author": "Dr. Ana Ruiz",
-    "description": "Recognizing symptoms and seeking support."
+    "description": "Recognizing symptoms and seeking support.",
+    "content": "Depression is a serious mental health condition that can affect mood, energy, and daily functioning. Professional counseling, emotional support, healthy routines, and therapy can significantly improve recovery outcomes."
   }
 ]

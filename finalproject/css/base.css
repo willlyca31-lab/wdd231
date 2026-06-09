@@ -283,6 +283,179 @@ section {
     box-shadow: var(--shadow);
 }
 
+/* ------------------------------
+   APPOINTMENT + NETWORK FORMS
+-------------------------------- */
+
+.appointment-section,
+.join-network {
+
+    background-color: var(--white);
+
+    padding: 2rem;
+
+    margin-bottom: 3rem;
+
+    border-radius: var(--border-radius);
+
+    box-shadow: var(--shadow);
+}
+
+
+/* extra separation between forms */
+
+.join-network {
+
+    margin-top: 3rem;
+
+    border-top: 6px solid var(--secondary-color);
+}
+
+
+/* headings */
+
+.appointment-section h2,
+.join-network h2 {
+
+    font-family: 'Poppins', sans-serif;
+
+    color: var(--primary-color);
+
+    margin-bottom: 1rem;
+
+    border-bottom: 3px solid var(--secondary-color);
+
+    padding-bottom: .5rem;
+}
+
+
+/* description text */
+
+.join-network p {
+
+    margin-bottom: 2rem;
+}
+
+
+/* forms */
+
+form {
+
+    display: grid;
+
+    gap: 1rem;
+}
+
+
+/* labels */
+
+label {
+
+    font-weight: 600;
+
+    color: var(--primary-color);
+}
+
+
+/* fields */
+
+input,
+select,
+textarea {
+
+    width: 100%;
+
+    padding: .9rem;
+
+    border: 1px solid #ccc;
+
+    border-radius: 6px;
+
+    font-size: 1rem;
+
+    background-color: #fff;
+}
+
+
+/* focus accessibility */
+
+input:focus,
+select:focus,
+textarea:focus {
+
+    outline: 3px solid var(--secondary-color);
+
+    outline-offset: 2px;
+
+    border-color: var(--secondary-color);
+}
+
+
+/* textarea */
+
+textarea {
+
+    min-height: 150px;
+
+    resize: vertical;
+}
+
+
+/* buttons */
+
+button[type="submit"] {
+
+    background-color: var(--secondary-color);
+
+    color: white;
+
+    border: none;
+
+    padding: 1rem;
+
+    border-radius: 6px;
+
+    font-weight: 600;
+
+    cursor: pointer;
+
+    transition: opacity .3s ease;
+}
+
+button[type="submit"]:hover {
+
+    opacity: .9;
+}
+
+/* ------------------------------
+   ARTICLE MODAL
+-------------------------------- */
+
+#article-modal {
+
+    border: none;
+
+    border-radius: 10px;
+
+    padding: 2rem;
+
+    max-width: 700px;
+
+    width: 90%;
+}
+
+#article-modal::backdrop {
+
+    background: rgba(0,0,0,.6);
+}
+
+#close-modal {
+
+    float: right;
+
+    margin-bottom: 1rem;
+}
+
 
 /* ------------------------------
    FEATURED GRID
