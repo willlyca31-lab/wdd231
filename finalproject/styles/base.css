@@ -13,21 +13,12 @@
     --border-radius: 10px;
 }
 
-
-/* ------------------------------
-   GLOBAL RESET
--------------------------------- */
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-
-/* ------------------------------
-   BODY
--------------------------------- */
 
 body {
 
@@ -40,10 +31,6 @@ body {
     line-height: 1.7;
 }
 
-
-/* ------------------------------
-   TYPOGRAPHY
--------------------------------- */
 
 h1,
 h2,
@@ -86,10 +73,6 @@ p {
 }
 
 
-/* ------------------------------
-   HEADER
--------------------------------- */
-
 header {
 
     background-color: var(--primary-color);
@@ -115,10 +98,6 @@ header {
     font-weight: 700;
 }
 
-
-/* ------------------------------
-   NAVIGATION
--------------------------------- */
 
 #menu-button {
 
@@ -173,10 +152,6 @@ header {
 }
 
 
-/* ------------------------------
-   MAIN
--------------------------------- */
-
 main {
 
     max-width: 1200px;
@@ -186,10 +161,6 @@ main {
     padding: 1rem;
 }
 
-
-/* ------------------------------
-   HERO
--------------------------------- */
 
 .hero {
 
@@ -226,16 +197,6 @@ main {
     max-width: 240px;
 }
 
-.hero-text h1 {
-
-    color: white;
-}
-
-
-/* ------------------------------
-   BUTTONS
--------------------------------- */
-
 .btn,
 button {
 
@@ -265,10 +226,6 @@ button:hover {
 }
 
 
-/* ------------------------------
-   SECTIONS
--------------------------------- */
-
 section {
 
     background-color: var(--white);
@@ -281,10 +238,6 @@ section {
 
     box-shadow: var(--shadow);
 }
-
-/* ------------------------------
-   APPOINTMENT + NETWORK FORMS
--------------------------------- */
 
 .appointment-section,
 .join-network {
@@ -301,8 +254,6 @@ section {
 }
 
 
-/* extra separation between forms */
-
 .join-network {
 
     margin-top: 3rem;
@@ -310,8 +261,6 @@ section {
     border-top: 6px solid var(--secondary-color);
 }
 
-
-/* headings */
 
 .appointment-section h2,
 .join-network h2 {
@@ -328,15 +277,11 @@ section {
 }
 
 
-/* description text */
-
 .join-network p {
 
     margin-bottom: 2rem;
 }
 
-
-/* labels */
 
 label {
 
@@ -345,8 +290,6 @@ label {
     color: var(--primary-color);
 }
 
-
-/* fields */
 
 input,
 select,
@@ -366,8 +309,6 @@ textarea {
 }
 
 
-/* focus accessibility */
-
 input:focus,
 select:focus,
 textarea:focus {
@@ -379,8 +320,6 @@ textarea:focus {
     border-color: var(--secondary-color);
 }
 
-
-/* textarea */
 
 textarea {
 
@@ -397,8 +336,6 @@ textarea {
     background-color: #fff;
 }
 
-
-/* buttons */
 
 button[type="submit"] {
 
@@ -424,9 +361,6 @@ button[type="submit"]:hover {
     opacity: .9;
 }
 
-/* ------------------------------
-   ARTICLE MODAL
--------------------------------- */
 
 #article-modal {
 
@@ -454,10 +388,6 @@ button[type="submit"]:hover {
 }
 
 
-/* ------------------------------
-   FEATURED GRID
--------------------------------- */
-
 .featured-grid,
 .directory-grid,
 .articles-grid {
@@ -467,10 +397,6 @@ button[type="submit"]:hover {
     gap: 1.5rem;
 }
 
-
-/* ------------------------------
-   CARDS
--------------------------------- */
 
 .feature-card,
 .directory-card,
@@ -499,10 +425,6 @@ button[type="submit"]:hover {
 }
 
 
-/* ------------------------------
-   LIST VIEW
--------------------------------- */
-
 .directory-list {
 
     display: flex;
@@ -523,10 +445,6 @@ button[type="submit"]:hover {
 }
 
 
-/* ------------------------------
-   FORMS
--------------------------------- */
-
 form {
 
     display: grid;
@@ -536,10 +454,6 @@ form {
     max-width: 700px;
 }
 
-
-/* ------------------------------
-   DIALOG MODAL
--------------------------------- */
 
 dialog {
 
@@ -557,10 +471,6 @@ dialog::backdrop {
     background: rgba(0,0,0,.6);
 }
 
-
-/* ------------------------------
-   FOOTER
--------------------------------- */
 
 footer {
 
@@ -611,10 +521,6 @@ footer h2 {
         transform .3s ease;
 }
 
-/* ------------------------------
-   ACCESSIBILITY
--------------------------------- */
-
 img {
 
     max-width: 100%;
@@ -632,10 +538,6 @@ textarea:focus {
     outline-offset: 3px;
 }
 
-/* ------------------------------
-   MOBILE NAVIGATION
--------------------------------- */
-
 .navigation.open {
 
     display: flex;
@@ -647,8 +549,10 @@ textarea:focus {
 
     line-height: 1.2;
 
-    margin-bottom: .8rem
-    
+    margin-bottom: .8rem;
+
+    color : white ;
+
 }
 
 .hero-text p {
