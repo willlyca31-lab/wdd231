@@ -36,5 +36,104 @@
     "experience": "12 Years",
     "bio": "Experienced psychologist specializing in anxiety disorders.",
     "image": "images/petter.webp"
+  },
+  {
+    "id": 5,
+    "name": "Lic. Petro Carl",
+    "specialty": "Anxiety Therapy",
+    "location": "Puebla, Mexico",
+    "experience": "12 Years",
+    "bio": "Family and relationship therapy specialist.",
+    "image": "images/petro.webp"
+  },
+  {
+    "id": 6,
+    "name": "Lic. Anaj Ruiz",
+    "specialty": "Anxiety Therapy",
+    "location": "Puebla, Mexico",
+    "experience": "12 Years",
+    "bio": "Experienced psychologist specializing in anxiety disorders.",
+    "image": "images/anaj.webp"
+  },
+  {
+    "id": 7,
+    "name": "Lic. Pratt Ruiz",
+    "specialty": "Anxiety Therapy",
+    "location": "Puebla, Mexico",
+    "experience": "12 Years",
+    "bio": "Family and relationship therapy specialist..",
+    "image": "images/pratt.webp"
+  },
+  {
+    "id": 8,
+    "name": "Lic. Jonas Ruiz",
+    "specialty": "Anxiety Therapy",
+    "location": "Puebla, Mexico",
+    "experience": "12 Years",
+    "bio": "Experienced psychologist specializing in anxiety disorders.",
+    "image": "images/jonas.webp"
+  },
+  {
+    "id": 9,
+    "name": "Lic. Sun Ju",
+    "specialty": "Anxiety Therapy",
+    "location": "Puebla, Mexico",
+    "experience": "12 Years",
+    "bio": "Helping patients improve emotional wellness and resilience.",
+    "image": "images/sun.webp"
+  },
+  {
+    "id": 10,
+    "name": "Lic. Marco Lu",
+    "specialty": "Anxiety Therapy",
+    "location": "Puebla, Mexico",
+    "experience": "12 Years",
+    "bio": "Family and relationship therapy specialist..",
+    "image": "images/lu.webp"
+  },
+  {
+    "id": 11,
+    "name": "Lic. Petter John",
+    "specialty": "Anxiety Therapy",
+    "location": "Puebla, Mexico",
+    "experience": "12 Years",
+    "bio": "Experienced psychologist specializing in anxiety disorders.",
+    "image": "images/john.webp"
+  },
+  {
+    "id": 12,
+    "name": "Lic. Diane Pablo",
+    "specialty": "Anxiety Therapy",
+    "location": "Puebla, Mexico",
+    "experience": "12 Years",
+    "bio": "Family and relationship therapy specialist..",
+    "image": "images/petter.webp"
+  },
+  {
+    "id": 13,
+    "name": "Lic. Li Hu  Robert",
+    "specialty": "Anxiety Therapy",
+    "location": "Puebla, Mexico",
+    "experience": "12 Years",
+    "bio": "Helping patients improve emotional wellness and resilience.",
+    "image": "images/hu.webp"
+  },
+  {
+    "id": 14,
+    "name": "Lic. ter Ruiz",
+    "specialty": "Anxiety Therapy",
+    "location": "Puebla, Mexico",
+    "experience": "20 Years",
+    "bio": "Family and relationship therapy specialist..",
+    "image": "images/ter.webp"
+  },
+  {
+    "id": 15,
+    "name": "Lic. Paty Ruiz",
+    "specialty": "Anxiety Therapy",
+    "location": "Puebla, Mexico",
+    "experience": "14 Years",
+    "bio": "Experienced psychologist specializing in anxiety disorders.",
+    "image": "images/paty.webp"
   }
 ]
