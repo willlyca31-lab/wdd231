@@ -40,7 +40,7 @@
   {
     "id": 5,
     "name": "Lic. Petro Carl",
-    "specialty": "Anxiety Therapy",
+    "specialty": "Family Therapy",
     "location": "Puebla, Mexico",
     "experience": "12 Years",
     "bio": "Family and relationship therapy specialist.",
@@ -58,7 +58,7 @@
   {
     "id": 7,
     "name": "Lic. Pratt Ruiz",
-    "specialty": "Anxiety Therapy",
+    "specialty": "Family Therapy",
     "location": "Puebla, Mexico",
     "experience": "12 Years",
     "bio": "Family and relationship therapy specialist..",
@@ -76,7 +76,7 @@
   {
     "id": 9,
     "name": "Lic. Sun Ju",
-    "specialty": "Anxiety Therapy",
+    "specialty": "Depression Treatment",
     "location": "Puebla, Mexico",
     "experience": "12 Years",
     "bio": "Helping patients improve emotional wellness and resilience.",
@@ -85,7 +85,7 @@
   {
     "id": 10,
     "name": "Lic. Marco Lu",
-    "specialty": "Anxiety Therapy",
+    "specialty": "Family Therapy",
     "location": "Puebla, Mexico",
     "experience": "12 Years",
     "bio": "Family and relationship therapy specialist..",
@@ -103,7 +103,7 @@
   {
     "id": 12,
     "name": "Lic. Diane Pablo",
-    "specialty": "Anxiety Therapy",
+    "specialty": "Family Therapy",
     "location": "Puebla, Mexico",
     "experience": "12 Years",
     "bio": "Family and relationship therapy specialist..",
@@ -112,7 +112,7 @@
   {
     "id": 13,
     "name": "Lic. Li Hu  Robert",
-    "specialty": "Anxiety Therapy",
+    "specialty": "Depression Treatment",
     "location": "Puebla, Mexico",
     "experience": "12 Years",
     "bio": "Helping patients improve emotional wellness and resilience.",
@@ -121,7 +121,7 @@
   {
     "id": 14,
     "name": "Lic. ter Ruiz",
-    "specialty": "Anxiety Therapy",
+    "specialty": "Family Therapy",
     "location": "Puebla, Mexico",
     "experience": "20 Years",
     "bio": "Family and relationship therapy specialist..",
@@ -129,7 +129,7 @@
   },
   {
     "id": 15,
-    "name": "Lic. Paty Ruiz",
+    "name": "Lic. Patricia Ruiz",
     "specialty": "Anxiety Therapy",
     "location": "Puebla, Mexico",
     "experience": "14 Years",
