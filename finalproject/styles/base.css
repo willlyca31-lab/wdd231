@@ -138,13 +138,10 @@ header {
     display: none;
 
     list-style: none;
+    flex-direction: column;
 
     margin-top: 1rem;
-}
-
-.navigation.open {
-
-    display: block;
+    gap: .5rem;
 }
 
 .navigation li {
@@ -163,6 +160,8 @@ header {
     color: var(--white);
 
     border-radius: 6px;
+
+    background-color: var(--primary-color);
 
     transition: background-color .3s ease;
 }
@@ -220,11 +219,11 @@ main {
 
     color: white;
 
-    padding: 1.5rem;
+    padding: .7rem;
 
     border-radius: var(--border-radius);
 
-    max-width: 500px;
+    max-width: 240px;
 }
 
 .hero-text h1 {
@@ -334,16 +333,6 @@ section {
 .join-network p {
 
     margin-bottom: 2rem;
-}
-
-
-/* forms */
-
-form {
-
-    display: grid;
-
-    gap: 1rem;
 }
 
 
@@ -547,33 +536,6 @@ form {
     max-width: 700px;
 }
 
-label {
-
-    font-weight: 600;
-}
-
-input,
-select,
-textarea {
-
-    width: 100%;
-
-    padding: .9rem;
-
-    border: 1px solid #ccc;
-
-    border-radius: 6px;
-
-    font-size: 1rem;
-}
-
-textarea {
-
-    min-height: 150px;
-
-    resize: vertical;
-}
-
 
 /* ------------------------------
    DIALOG MODAL
@@ -649,11 +611,6 @@ footer h2 {
         transform .3s ease;
 }
 
-
-
-
-
-
 /* ------------------------------
    ACCESSIBILITY
 -------------------------------- */
@@ -679,44 +636,9 @@ textarea:focus {
    MOBILE NAVIGATION
 -------------------------------- */
 
-.navigation {
-
-    display: none;
-
-    flex-direction: column;
-
-    list-style: none;
-
-    margin-top: 1rem;
-
-    gap: .5rem;
-}
-
 .navigation.open {
 
     display: flex;
-}
-
-.navigation a {
-
-    display: block;
-
-    padding: 1rem;
-
-    background-color: var(--primary-color);
-
-    color: white;
-
-    text-decoration: none;
-
-    border-radius: 6px;
-}
-
-.hero-text {
-
-    max-width: 240px;
-
-    padding: .7rem;
 }
 
 .hero-text h1 {
@@ -725,7 +647,8 @@ textarea:focus {
 
     line-height: 1.2;
 
-    margin-bottm: .8rem
+    margin-bottom: .8rem
+    
 }
 
 .hero-text p {

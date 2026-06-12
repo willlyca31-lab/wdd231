@@ -1,114 +1,51 @@
 @media screen and (min-width: 768px) {
 
-
-    /* ------------------------------
-       HEADER
-    -------------------------------- */
-
     header {
-
         display: flex;
-
         justify-content: space-between;
-
         align-items: center;
     }
 
-
-    /* ------------------------------
-       NAVIGATION
-    -------------------------------- */
-
     #menu-button {
-
         display: none;
     }
 
     .navigation {
-
-        display: flex;
-
+        display: flex !important;
+        flex-direction: row;
         gap: 1rem;
-
         margin-top: 0;
     }
 
     .navigation li {
-
         margin-bottom: 0;
     }
 
-    @media screen and (min-width: 768px) {
-
-    #menu-button {
-
-        display: none;
-    }
-
-    .navigation {
-
-        display: flex !important;
-
-        flex-direction: row;
-    }
-}
-
-
-    /* ------------------------------
-       HERO
-    -------------------------------- */
-
     .hero img {
-
         height: 550px;
     }
 
-
-    /* ------------------------------
-       GRIDS
-    -------------------------------- */
-
     .featured-grid {
-
         grid-template-columns: repeat(3, 1fr);
     }
 
     .directory-grid {
-
-        grid-template-columns:
-            repeat(auto-fit, minmax(320px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     }
 
     .articles-grid {
-
         grid-template-columns: repeat(2, 1fr);
     }
 
-
-    /* ------------------------------
-       DIRECTORY CONTROLS
-    -------------------------------- */
-
     .directory-controls {
-
         display: flex;
-
         gap: 1rem;
-
         margin-bottom: 2rem;
     }
 
-
-    /* ------------------------------
-       FOOTER
-    -------------------------------- */
-
     footer {
-
         display: flex;
-
         justify-content: space-between;
-
         align-items: center;
     }
 }
